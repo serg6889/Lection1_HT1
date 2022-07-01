@@ -15,6 +15,13 @@ int max = a;
 if (a > max) max = a;
 if (b > max) max = b;
 
+int min = b;
+
+if (b < min) min = b;
+if (a < min) min = a;
 
 Console.Write("max = ");
 Console.WriteLine(max);
+
+Console.Write("min = ");
+Console.WriteLine(min);
