@@ -6,19 +6,27 @@
 //int a = 2;
 //int b = 10;
 
-int a = -9;
-int b = -3;
+//int a = -9;
+//int b = -3;
+
+int numA = new Random().Next(-10, 10);
+Console.Write("numA = ");
+Console.WriteLine(numA);
+
+int numB = new Random().Next(-10, 10);
+Console.Write("numB = ");
+Console.WriteLine(numB);
 
 
-int max = a;
+int max = numA;
 
-if (a > max) max = a;
-if (b > max) max = b;
+if (numA > max) max = numA;
+if (numB > max) max = numB;
 
-int min = b;
+int min = numB;
 
-if (b < min) min = b;
-if (a < min) min = a;
+if (numB < min) min = numB;
+if (numA < min) min = numA;
 
 Console.Write("max = ");
 Console.WriteLine(max);
