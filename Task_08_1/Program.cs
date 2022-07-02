@@ -5,10 +5,8 @@ int numA = Convert.ToInt32(Console.ReadLine());
 
 int i = 2;
 
-if(i <= numA)
+while(i <= numA)
 {    
     Console.Write(i + " ");  
-    i+=2;   
+    i+=2;  
 }
-
-
