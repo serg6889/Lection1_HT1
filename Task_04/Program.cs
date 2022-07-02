@@ -8,16 +8,27 @@
 //int b = 5;
 //int c = 78;
 
-int a = 22;
-int b = 3;
-int c = 9;
+//int a = 22;
+//int b = 3;
+//int c = 9;
 
+int numA = new Random().Next(0, 100);
+Console.Write("numA = ");
+Console.WriteLine(numA);
 
-int max = a;
+int numB = new Random().Next(0, 100);
+Console.Write("numB = ");
+Console.WriteLine(numB);
 
-if (a > max) max = a;
-if (b > max) max = b;
-if (c > max) max = c;
+int numC = new Random().Next(0, 100);
+Console.Write("numC= ");
+Console.WriteLine(numC);
+
+int max = numA;
+
+if (numA > max) max = numA;
+if (numB > max) max = numB;
+if (numC > max) max = numC;
 
 
 Console.WriteLine(max);
