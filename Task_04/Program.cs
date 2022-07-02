@@ -1,16 +1,16 @@
 ﻿// Task_04_5_6
 
-//int a = 2;
-//int b = 3;
-//int c = 7;
+//int numA = 2;
+//int numB = 3;
+//int numC = 7;
 
-//int a = 44;
-//int b = 5;
-//int c = 78;
+//int numA = 44;
+//int numB = 5;
+//int numC = 78;
 
-//int a = 22;
-//int b = 3;
-//int c = 9;
+//int numA = 22;
+//int numB = 3;
+//int numC = 9;
 
 int numA = new Random().Next(0, 100);
 Console.Write("numA = ");
