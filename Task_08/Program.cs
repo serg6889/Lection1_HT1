@@ -5,8 +5,6 @@ int numA = Convert.ToInt32(Console.ReadLine());
 
 int i = 0;
 
-i++;
-
 while (i < numA)
 {
     if (i % 2 == 0)
@@ -15,9 +13,9 @@ while (i < numA)
     }
     else
     {
-        
+
     }
   
 }
-
+i++;
 
