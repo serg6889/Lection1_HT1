@@ -8,9 +8,9 @@ Console.WriteLine(numA);
 
 if(numA % 2 == 0)
 {
-    Console.WriteLine("numA is even number");
+     Console.WriteLine("numA is even number");
 }
 else
 {
-    Console.WriteLine("numA is odd number");
+     Console.WriteLine("numA is odd number");
 }
