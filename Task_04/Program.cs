@@ -12,6 +12,7 @@
 //int numB = 3;
 //int numC = 9;
 
+
 int numA = new Random().Next(0, 100);
 Console.Write("numA = ");
 Console.WriteLine(numA);
